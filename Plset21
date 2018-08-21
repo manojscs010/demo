@@ -1,0 +1,12 @@
+import java.util.*;
+class Plset21
+{
+    public static void main(String args[])
+    {
+        String s=args[0];
+         if(s.equals("Saturday")||s.equals("Sunday"))
+          System.out.print("yes");
+         else
+          System.out.print("no");
+    }
+}
